@@ -1,0 +1,13 @@
+# Raw data and regenerable outputs — not uploaded (see README for the Kaggle link)
+*.csv
+star_schema_csv/
+data_profile.md
+
+# Python
+__pycache__/
+*.pyc
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
