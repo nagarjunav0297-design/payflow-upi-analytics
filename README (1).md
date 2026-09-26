@@ -15,14 +15,14 @@ Limitations below for what that means for the findings.
 
 ```
 Raw CSV (Kaggle)
-      │
-      ▼
+      | |
+       ▼
 Python (pandas) ── cleaning, dedup, star-schema split
-      │
-      ▼
+      | |
+       ▼
 SQL Server ── 8 dimension tables + 1 fact table, indexed, FK-constrained
-      │
-      ▼
+      | |
+       ▼
 Power BI ── DAX measures, 4-page report
 ```
 
