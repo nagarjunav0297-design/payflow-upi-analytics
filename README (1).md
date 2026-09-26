@@ -79,12 +79,6 @@ by amount band and hour of day.
 - **No failure-reason column**, so failure analysis is limited to rate by segment
   rather than root cause.
 
-## What I'd add with real data
-
-User-level retention and cohort curves, root-cause failure codes, and a check for
-whether fraud and failure rates genuinely vary by bank or region (which would point
-to specific operational or fraud-ring issues worth investigating).
-
 ## Tools
 
 Python (pandas), Microsoft SQL Server, Power BI Desktop (DAX, Power Query)
