@@ -32,10 +32,10 @@ and reached with `USERELATIONSHIP`), `dim_age_group`, `dim_state`,
 `dim_merchant_category`, `dim_transaction_type`, `dim_device`, `dim_network`.
 
 **Scripts** (run in order):
-1. `upi_profile.py` — profiles the raw CSV (schema, nulls, distributions) before modeling
-2. `01_clean_and_build_star_schema.py` — cleans and splits into star-schema CSVs
+1. `upi_profile.py` — profiles the raw CSV (schema, nulls, distributions) before modelling
+2. `clean_and_build_working.py` — cleans and splits into star-schema CSVs
 3. `02_create_tables.sql` — creates the SQL Server schema
-4. `04_load_to_sql.py` — loads the CSVs into SQL Server
+4. `load_to_sql.py` — loads the CSVs into SQL Server
 5. `03_analysis_queries.sql` — sample SQL used to validate the model
 
 ## Dashboard pages
