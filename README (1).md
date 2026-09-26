@@ -58,13 +58,13 @@ by amount band and hour of day.
 
 ## Key techniques demonstrated
 
-- Star-schema modeling with surrogate keys and a dedicated marked Date table
+- Implementing a star schema with system-generated keys and a standardized calendar dimension (dedicated Date table).
 - Dual relationships to one dimension table, resolved in DAX with `USERELATIONSHIP`
   (sender-bank vs. receiver-bank, sender-age vs. receiver-age)
 - Time intelligence (`DATEADD`, MoM growth)
 - Rare-event / imbalanced-data handling for a 0.19% fraud rate (rate + count shown
   together, not rate alone)
-- Calculated columns vs. measures (e.g., amount-band bucketing)
+- Calculated columns vs. measures
 - Data cleaning and validation in Python and SQL before any visualization
 
 ## Limitations
@@ -75,8 +75,7 @@ by amount band and hour of day.
   show real variation (e.g., from bank-side outages or genuine fraud rings), which is
   worth validating against live data before acting on it.
 - **No user identifier** in the source data, so retention, cohorts, and repeat-user
-  analysis aren't possible here. That analysis is covered instead in [PROJECT 2 NAME],
-  which uses a dataset with user-level history.
+  analysis aren't possible here.
 - **No failure-reason column**, so failure analysis is limited to rate by segment
   rather than root cause.
 
