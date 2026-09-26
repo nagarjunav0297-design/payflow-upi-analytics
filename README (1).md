@@ -1,12 +1,12 @@
-# PayFlow — UPI Payments Analytics (Power BI + SQL Server + Python)
+# PayFlow — UPI Payments Analytics
+Power BI | SQL | Python | Excel
 
-A 4-page Power BI dashboard analyzing 250,000 simulated UPI transactions, built to
-demonstrate data modeling, SQL, and DAX skills for Data Analyst / Product Analyst roles
-in fintech.
+A Power BI dashboard analyzing 250,000 simulated UPI transactions, built to
+demonstrate data modelling, SQL, and DAX skills for Data Analyst / Product Analyst roles.
 
 ## Data source
 
-[UPI Transactions 2024 dataset](https://www.kaggle.com/datasets/skullagos5246/upi-transactions-2024-dataset)
+[UPI Transactions dataset](https://www.kaggle.com/datasets/skullagos5246/upi-transactions-2024-dataset)
 on Kaggle — a **synthetic** dataset simulating realistic UPI transaction patterns across
 merchant categories, banks, devices, and networks. Not real production data; see
 Limitations below for what that means for the findings.
